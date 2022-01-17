@@ -3,4 +3,7 @@ def add(a, b) :
 
 #comment
 def sub(a, b) :
-	return a - b 
+	return a - b
+
+def mul(a, b) :
+	return a * b
