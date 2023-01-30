@@ -205,4 +205,15 @@ git diff HEAD
 마지막 커밋, 가장 나중에 실행된 커밋부터 워킹 디렉토리에 있는 모든 번경사항 목록을 나열해준다.
 즉, HEAD가 참조했던 커밋 이후에 변경했던 모든 것을 볼 수 있다.
 
- 
+파일을 변경하고 git add . 를 한 뒤에 git diff를 사용하게 되면 아무것도 볼 수 없다. 
+
+왜냐하면, working directory의 변경내용이 staging area영역으로 이동했으니 변경사항이 없는 것 
+
+하지만, git diff HEAD를 사용하게 되면, 마지막 커밋과 working directory를 비교하는 것이므로 
+git add .를 했다고 하더라도 변경사항을 볼 수 있다. 
+
+
+git diff --staged
+git diff --cached
+두 옵션 모두 스테이지에 등록된 변경 사항만을 보여준다. 
+즉 staging 영역끼리에서의 비교가 된다. 
