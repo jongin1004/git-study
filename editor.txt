@@ -1,1 +1,0 @@
-깃에 디폴트 editor를 vs code로 변경하기 
