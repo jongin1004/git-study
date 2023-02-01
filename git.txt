@@ -238,3 +238,9 @@ git diff HEAD [파일 이름]
 브랜치 끼리의 비교 
 
 git diff 브랜치1..브랜치2 (..는 생략 가능하다.)
+
+
+
+github repo 생성 및 연결
+git clone
+git remote 
