@@ -265,3 +265,8 @@ git remote remove <name>
 리모트 삭제
 
 
+git push
+
+git push <remote> <branch>
+
+
