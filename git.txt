@@ -242,5 +242,26 @@ git diff 브랜치1..브랜치2 (..는 생략 가능하다.)
 
 
 github repo 생성 및 연결
-git clone
+git clone URL
+github의 URL을 입력하는 것 만으로도, git remote가 연결이되고,
+해당 레포의 모든 파일을 다운로드하고
+git log 커밋이력까지 전부 다 받아온다.  
+
 git remote 
+
+remote 생성
+git remote add <name> <url>
+name에는 보통 origin을 많이쓰는데, 이건 브랜치에서 master(main)을 쓰는거랑 마찬가지 
+굳이 origin을 쓸필요없고, origin에 어떤 역할이 있는 것도 아니다. 
+하지만 관례적으로 origin을 사용함
+
+git remote -v 
+리모트 목록을 보여줌
+
+git remote rename <old name> <new name>
+이름 변경
+
+git remote remove <name>
+리모트 삭제
+
+
